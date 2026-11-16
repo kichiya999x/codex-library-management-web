@@ -1,0 +1,26 @@
+# Local application state — never commit real borrower information
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.sqlite
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
